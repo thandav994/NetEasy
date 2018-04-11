@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.neteasy.test"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+        <activity
+            android:name="com.neteasy.test.Splash"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.neteasy.test.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.neteasy.test.MAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.neteasy.test.Splash1"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Transparent" >
+            <intent-filter>
+                <action android:name="com.neteasy.test.SPLASH1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.neteasy.test.Splash2"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Transparent" >
+            <intent-filter>
+                <action android:name="com.neteasy.test.SPLASH2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.neteasy.test.Splash3"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Transparent" >
+            <intent-filter>
+                <action android:name="com.neteasy.test.SPLASH3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.neteasy.test.Splash4"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Transparent" >
+            <intent-filter>
+                <action android:name="com.neteasy.test.SPLASH4" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.neteasy.test.ProfileMenu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.neteasy.test.PROFILEMENU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.neteasy.test.AboutUs"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Dialog" >
+            <intent-filter>
+                <action android:name="com.neteasy.test.ABOUT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.neteasy.test.Pref"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.neteasy.test.PREF" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+                  <activity
+            android:name="com.neteasy.test.Join"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.neteasy.test.JOIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+		                  <activity
+            android:name="com.neteasy.test.LinkedLogin"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.neteasy.test.LINKEDLOGIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+                          <activity
+            android:name="com.neteasy.test.MyProfile"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.neteasy.test.MYPROFILE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+                          <activity
+            android:name="com.neteasy.test.EditProfile"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.neteasy.test.EDITPROFILE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>	
+                          <activity
+            android:name="com.neteasy.test.Settings"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.neteasy.test.SETTINGS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+	                  <activity
+            android:name="com.neteasy.test.Inbox"
+            android:label="@string/app_name" >
+        </activity>
+        
+	       
+</application>
+</manifest>
